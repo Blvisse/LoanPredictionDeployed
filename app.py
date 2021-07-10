@@ -18,7 +18,7 @@ def homepage():
 
 
 
-@app.route('/',  methods=['GET', 'POST'])
+@app.route('/',  methods=['POST'])
 
 def predict():
     import pandas as pd
