@@ -8,4 +8,4 @@ data= {'Gender':1,'Married':1,'Dependents':3,'Education':1,'Self_Employed':0,'Ap
 
 datar=json.dumps(data)
 
-print(requests.post(url,datar))
+print(requests.post(url,datar).json())

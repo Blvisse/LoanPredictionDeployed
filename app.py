@@ -45,7 +45,7 @@ def predict():
     print(data_DF)
     prediction=model.predict(data_DF)
 
-    output={'results':int(prediction[0])}
+    output={'Loan Predcition is ':int(prediction[0])}
 
     return jsonify(results=output) 
     # return dependents
